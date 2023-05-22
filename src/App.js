@@ -13,9 +13,9 @@ function App() {
             <Navigation/>
             <Routes>
                 <Route path="/" element={<Home/>}/>
-                <Route path="/" element={<Whitening/>}/>
-                <Route path="/" element={<Appointments/>}/>
-                <Route path="/" element={<Cavities/>}/>
+                <Route path="/tanden-bleken" element={<Whitening/>}/>
+                <Route path="/afspraken" element={<Appointments/>}/>
+                <Route path="/gaatjes" element={<Cavities/>}/>
             </Routes>
         </>
     );
